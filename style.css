@@ -109,6 +109,45 @@ nav a:hover {
   background-color: #000000;
 }
 
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f6f2ea;
+}
+
+.intro h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.intro p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  max-width: 600px;
+  flex-basis: 80%; 
+  margin-right: 20px;
+}
+
+.intro .avatar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 20%;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 .footer {
   background-color: #313232;
   text-align: center;
