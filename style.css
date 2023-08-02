@@ -1,0 +1,64 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+.nav-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 10px 20px;
+}
+.nav-logo {
+  display: inline-block;
+  height: 30px;
+  width: 40px;
+  background-image: url("./assets/Asset-2@3x.png");
+  background-size: cover;
+  background-position: center;
+}
+.nav-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #1a3a1c;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+nav li {
+  margin-left: 20px;
+}
+nav a {
+  color: #1a3a1c;
+  text-decoration: none;
+  font-size: .9rem;
+  transition: color 0.2s ease-in-out;
+}
+nav a:hover {
+  color: #000000;
+}
+
+.footer {
+
+}
+
+.footer-logo {
+
+}
