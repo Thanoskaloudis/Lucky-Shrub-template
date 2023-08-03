@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 .hero-image {
-  background-image: url("./assets//hero-image.png");
+  background-image: url("./assets//hero-image.jpg");
   height: 400px;
   background-size: cover;
   background-position: center;
