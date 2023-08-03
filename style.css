@@ -110,7 +110,7 @@ nav a:hover {
   transition: background-color 0.2s ease-in-out;
 }
 .cta-button:hover {
-  background-color: #000000;
+  background-color: #172c17;
 }
 
 .intro {
@@ -201,10 +201,57 @@ nav a:hover {
   padding-bottom: 1.9rem;
 }
 
-.footer-logo {
-  height: 100px;
-  width: 50px;
-  background-image: url("./assets/Asset-2@3x.png");
-  background-size: cover;
-  background-position: center;
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-left {
+  flex-basis: 40%;
+}
+
+.footer-left img {
+  width: 15%;
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.social-media-links a {
+  color: #ffffff;
+  font-size: 24px;
+  margin-right: 15px;
+}
+
+.footer-right {
+  flex-basis: 50%;
+}
+
+.footer-right h3 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+.newsletter-form input[type="email"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.footer-copyright {
+  width: 100%;
+  text-align: center;
 }
