@@ -100,10 +100,10 @@ nav a:hover {
 }
 .cta-button {
 
-  padding: 1rem 1.5rem;
+  padding: 1rem 2.5rem;
   font-size: 1rem;
   color: #ffffff;
-  background-color: #153216;
+  background-color: #3d5d3e;
   border: none;
   border-radius: 5px;
   text-decoration: none;
@@ -150,6 +150,46 @@ nav a:hover {
   margin: 10px;
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.plants-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.plants-section h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.plants-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.plant-row {
+  border: 0;
+  margin: 2rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.plant-row img {
+  height: 35rem;
+  width: 35%;
+}
+
+.plant-row-content {
+  width: 40%;
+  margin-top: -8.5rem;
+}
+
+.plant-row-content p {
+  width: 75%;
+  margin-bottom: 2rem;
 }
 
 .footer {
